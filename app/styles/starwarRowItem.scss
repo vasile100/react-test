@@ -1,0 +1,63 @@
+.starwarRowItem {
+    width: 90%;
+    margin: 0 auto 10px;
+    background: #fff;
+    min-height: 100px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    -webkit-transition: 0.15s;
+    -moz-transition: 0.15s;
+    -o-transition: 0.15s;
+    -ms-transition: 0.15s;
+    transition: 0.15s;
+    cursor: pointer;
+    width: 270px;
+}
+.itemName {
+    padding: 5px 10px;
+    border-bottom: 1px solid #dbdbdb;
+    white-space: normal;
+    word-break: break-all;
+    word-wrap: break-world;
+}
+.itemContainer {
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    zoom: 1;
+}
+.itemAvatarWrap {
+    width: 70px;
+    float: left;
+    margin-bottom: 5px;
+}
+.itemAvatarWrap img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #dbdbdb;
+}
+.itemContent {
+    white-space: normal;
+}
+.itemAuthor {
+    font-size: 16px;
+    font-weight: bolder;
+}
+.itemPerfomers {
+    zoom: 1;
+    padding: 5px 10px;
+}
+.addPerfomers {
+    float: left;
+}
+ .perfomer {
+    float: left;
+}
+.deletePerfomers {
+    float: right;
+}
