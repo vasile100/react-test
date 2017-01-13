@@ -1,7 +1,9 @@
-![](SearchableTable-1.gif)
+
 
 # react-redux-test
-A test built with react, redux and react-router with the help of webpack.
+A test built in few hours to showcase an application with react, redux and react-router with the help of webpack.
+
+
 
 Contains: 
 Implementation details:
@@ -24,7 +26,7 @@ Implementation details:
 
 
 
-![](SearchableTable.gif)
+
 
 
 ## Run the app
@@ -38,11 +40,7 @@ Yes, it takes a while to load the first time you open the app.
 
 ### Is the hot module replacement really working?
 
-Yes! Take a look:
-
-![](bb.gif)
-
-The app updates without the browser having to reload. You don't lose state!
+Yes! The app updates without the browser having to reload. You don't lose state!
 
 ## Build the app
 ```npm run build```
@@ -50,9 +48,9 @@ The app updates without the browser having to reload. You don't lose state!
 This will build the app into the "dist" directory in the root of the project. 
 It contains the index.html along with the minified assets, ready for production.
 
-![](aa.png)
 
-It should look something like the above image.
+
+You can see screenshots in the Word doc.
 
 ## Run the app
 
