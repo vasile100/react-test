@@ -4,16 +4,23 @@
 A test built with react, redux and react-router with the help of webpack.
 
 Contains: 
+Implementation details:
+*	I used Microsoft Visual Code as an IDE
+*	The sample application used the latest React version
+*	Other libraries: 
+*	React-Router – is used to navigate between the main page and about page
+*	Redux – is used to filter the list based on character name
+*	Webpack – it is used as the code bundler and loader
+*	Babel is used by Webpack to transpile the code
+*	JSX is used for React components
+*	Styles are coded in SCSS and translated into CSS by a npm plugin
+*	Airbnb lint plug-in is used to check for coding style (in addition to regular lint)
+*	Bootstrap is used to give the overall style page (buttons for navigation, headers, etc)
+*	The application uses also a plug-in for ‘hot-loaded’; if code is changed, the code is automatically updated
+*	The application can be built and run in two modes:
+	-	Debug mode - using ‘npm start’; this starts the node server and it runs the application from the root path
+	-	Production mode – using live-server; the final deployment is done in dist directory, where all the js files are bundled in a single file, and all css files are also bundled in a single file
 
-* a working example of a filterable table which you can play around with (look below).
-* ES6 - 7 Support with Babel
-* Redux dev tools to help you keep track of the app's state
-* Routing
-* hot module replacement support so you can change modules or react components without having to reload the browser
-* a webpack production config so you can build the app and make it ready for production
-* Sass support, just import your styles wherever you need them
-* eslint to keep your js readable
-* much more...
 
 
 
