@@ -32,7 +32,7 @@ Yes, it takes a while to load the first time you open the app.
 ### Is the hot module replacement really working?
 
 Yes! Take a look:
-http://stackoverflow.com/questions/22876978/loop-inside-react-jsx
+
 ![](bb.gif)
 
 The app updates without the browser having to reload. You don't lose state!
